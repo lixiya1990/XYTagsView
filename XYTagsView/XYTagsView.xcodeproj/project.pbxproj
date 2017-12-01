@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D5B5DDF3D1C5B3B158944E5 /* libPods-XYTagsView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13312BD7AACE98E3C6370BC9 /* libPods-XYTagsView.a */; };
+		8910206B1FCFEB9200741CD0 /* XTagAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 891020641FCFEB9200741CD0 /* XTagAttribute.m */; };
+		8910206C1FCFEB9200741CD0 /* XTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 891020661FCFEB9200741CD0 /* XTagCell.m */; };
+		8910206D1FCFEB9200741CD0 /* XTagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 891020681FCFEB9200741CD0 /* XTagsView.m */; };
+		8910206E1FCFEB9200741CD0 /* XYTagCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8910206A1FCFEB9200741CD0 /* XYTagCollectionViewFlowLayout.m */; };
+		891020771FCFFA8B00741CD0 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891020761FCFFA8B00741CD0 /* OneViewController.m */; };
+		8910207A1FCFFA9400741CD0 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 891020791FCFFA9400741CD0 /* TwoViewController.m */; };
+		8910207D1FD0152600741CD0 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8910207C1FD0152600741CD0 /* TestTableViewCell.m */; };
+		89548D611FBEE6B8006D3F1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89548D601FBEE6B8006D3F1E /* AppDelegate.m */; };
+		89548D641FBEE6B9006D3F1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89548D631FBEE6B8006D3F1E /* ViewController.m */; };
+		89548D671FBEE6B9006D3F1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89548D651FBEE6B9006D3F1E /* Main.storyboard */; };
+		89548D691FBEE6B9006D3F1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89548D681FBEE6B9006D3F1E /* Assets.xcassets */; };
+		89548D6C1FBEE6B9006D3F1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89548D6A1FBEE6B9006D3F1E /* LaunchScreen.storyboard */; };
+		89548D6F1FBEE6B9006D3F1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89548D6E1FBEE6B9006D3F1E /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13312BD7AACE98E3C6370BC9 /* libPods-XYTagsView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYTagsView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		891020631FCFEB9200741CD0 /* XTagAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTagAttribute.h; sourceTree = "<group>"; };
+		891020641FCFEB9200741CD0 /* XTagAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTagAttribute.m; sourceTree = "<group>"; };
+		891020651FCFEB9200741CD0 /* XTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTagCell.h; sourceTree = "<group>"; };
+		891020661FCFEB9200741CD0 /* XTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTagCell.m; sourceTree = "<group>"; };
+		891020671FCFEB9200741CD0 /* XTagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTagsView.h; sourceTree = "<group>"; };
+		891020681FCFEB9200741CD0 /* XTagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTagsView.m; sourceTree = "<group>"; };
+		891020691FCFEB9200741CD0 /* XYTagCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYTagCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		8910206A1FCFEB9200741CD0 /* XYTagCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYTagCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		891020751FCFFA8B00741CD0 /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		891020761FCFFA8B00741CD0 /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		891020781FCFFA9400741CD0 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		891020791FCFFA9400741CD0 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		8910207B1FD0152600741CD0 /* TestTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
+		8910207C1FD0152600741CD0 /* TestTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
+		89548D5C1FBEE6B8006D3F1E /* XYTagsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYTagsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89548D5F1FBEE6B8006D3F1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89548D601FBEE6B8006D3F1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89548D621FBEE6B8006D3F1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		89548D631FBEE6B8006D3F1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89548D661FBEE6B9006D3F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89548D681FBEE6B9006D3F1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89548D6B1FBEE6B9006D3F1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89548D6D1FBEE6B9006D3F1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89548D6E1FBEE6B9006D3F1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E1A8B8B4735ACB53AAC1A89 /* Pods-XYTagsView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYTagsView.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYTagsView/Pods-XYTagsView.release.xcconfig"; sourceTree = "<group>"; };
+		E68BC283167AD0EE1065C7E3 /* Pods-XYTagsView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYTagsView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYTagsView/Pods-XYTagsView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89548D591FBEE6B8006D3F1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5B5DDF3D1C5B3B158944E5 /* libPods-XYTagsView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		891020621FCFEB9200741CD0 /* Classess */ = {
+			isa = PBXGroup;
+			children = (
+				891020631FCFEB9200741CD0 /* XTagAttribute.h */,
+				891020641FCFEB9200741CD0 /* XTagAttribute.m */,
+				891020651FCFEB9200741CD0 /* XTagCell.h */,
+				891020661FCFEB9200741CD0 /* XTagCell.m */,
+				891020671FCFEB9200741CD0 /* XTagsView.h */,
+				891020681FCFEB9200741CD0 /* XTagsView.m */,
+				891020691FCFEB9200741CD0 /* XYTagCollectionViewFlowLayout.h */,
+				8910206A1FCFEB9200741CD0 /* XYTagCollectionViewFlowLayout.m */,
+			);
+			name = Classess;
+			path = ../Classess;
+			sourceTree = "<group>";
+		};
+		89548D531FBEE6B8006D3F1E = {
+			isa = PBXGroup;
+			children = (
+				891020621FCFEB9200741CD0 /* Classess */,
+				89548D5E1FBEE6B8006D3F1E /* XYTagsView */,
+				89548D5D1FBEE6B8006D3F1E /* Products */,
+				DDE04C88CDC282F5843B667E /* Pods */,
+				E8938573BEBDF929FBE21168 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89548D5D1FBEE6B8006D3F1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89548D5C1FBEE6B8006D3F1E /* XYTagsView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89548D5E1FBEE6B8006D3F1E /* XYTagsView */ = {
+			isa = PBXGroup;
+			children = (
+				89548D5F1FBEE6B8006D3F1E /* AppDelegate.h */,
+				89548D601FBEE6B8006D3F1E /* AppDelegate.m */,
+				89548D621FBEE6B8006D3F1E /* ViewController.h */,
+				89548D631FBEE6B8006D3F1E /* ViewController.m */,
+				891020751FCFFA8B00741CD0 /* OneViewController.h */,
+				891020761FCFFA8B00741CD0 /* OneViewController.m */,
+				891020781FCFFA9400741CD0 /* TwoViewController.h */,
+				891020791FCFFA9400741CD0 /* TwoViewController.m */,
+				8910207B1FD0152600741CD0 /* TestTableViewCell.h */,
+				8910207C1FD0152600741CD0 /* TestTableViewCell.m */,
+				89548D651FBEE6B9006D3F1E /* Main.storyboard */,
+				89548D681FBEE6B9006D3F1E /* Assets.xcassets */,
+				89548D6A1FBEE6B9006D3F1E /* LaunchScreen.storyboard */,
+				89548D6D1FBEE6B9006D3F1E /* Info.plist */,
+				89548D6E1FBEE6B9006D3F1E /* main.m */,
+			);
+			path = XYTagsView;
+			sourceTree = "<group>";
+		};
+		DDE04C88CDC282F5843B667E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E68BC283167AD0EE1065C7E3 /* Pods-XYTagsView.debug.xcconfig */,
+				9E1A8B8B4735ACB53AAC1A89 /* Pods-XYTagsView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E8938573BEBDF929FBE21168 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13312BD7AACE98E3C6370BC9 /* libPods-XYTagsView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89548D5B1FBEE6B8006D3F1E /* XYTagsView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89548D721FBEE6B9006D3F1E /* Build configuration list for PBXNativeTarget "XYTagsView" */;
+			buildPhases = (
+				7D025C90E7FF29FBA561FCBD /* [CP] Check Pods Manifest.lock */,
+				89548D581FBEE6B8006D3F1E /* Sources */,
+				89548D591FBEE6B8006D3F1E /* Frameworks */,
+				89548D5A1FBEE6B8006D3F1E /* Resources */,
+				00CCA5735CE82F0D13E8B0DD /* [CP] Embed Pods Frameworks */,
+				36A69A84296DE9970895DAD0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYTagsView;
+			productName = XYTagsView;
+			productReference = 89548D5C1FBEE6B8006D3F1E /* XYTagsView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89548D541FBEE6B8006D3F1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = lxy;
+				TargetAttributes = {
+					89548D5B1FBEE6B8006D3F1E = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 89548D571FBEE6B8006D3F1E /* Build configuration list for PBXProject "XYTagsView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89548D531FBEE6B8006D3F1E;
+			productRefGroup = 89548D5D1FBEE6B8006D3F1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89548D5B1FBEE6B8006D3F1E /* XYTagsView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89548D5A1FBEE6B8006D3F1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89548D6C1FBEE6B9006D3F1E /* LaunchScreen.storyboard in Resources */,
+				89548D691FBEE6B9006D3F1E /* Assets.xcassets in Resources */,
+				89548D671FBEE6B9006D3F1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00CCA5735CE82F0D13E8B0DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYTagsView/Pods-XYTagsView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36A69A84296DE9970895DAD0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XYTagsView/Pods-XYTagsView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D025C90E7FF29FBA561FCBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYTagsView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89548D581FBEE6B8006D3F1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8910206C1FCFEB9200741CD0 /* XTagCell.m in Sources */,
+				8910207D1FD0152600741CD0 /* TestTableViewCell.m in Sources */,
+				8910206E1FCFEB9200741CD0 /* XYTagCollectionViewFlowLayout.m in Sources */,
+				89548D641FBEE6B9006D3F1E /* ViewController.m in Sources */,
+				89548D6F1FBEE6B9006D3F1E /* main.m in Sources */,
+				8910206B1FCFEB9200741CD0 /* XTagAttribute.m in Sources */,
+				8910206D1FCFEB9200741CD0 /* XTagsView.m in Sources */,
+				8910207A1FCFFA9400741CD0 /* TwoViewController.m in Sources */,
+				89548D611FBEE6B8006D3F1E /* AppDelegate.m in Sources */,
+				891020771FCFFA8B00741CD0 /* OneViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89548D651FBEE6B9006D3F1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89548D661FBEE6B9006D3F1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89548D6A1FBEE6B9006D3F1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89548D6B1FBEE6B9006D3F1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89548D701FBEE6B9006D3F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89548D711FBEE6B9006D3F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89548D731FBEE6B9006D3F1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68BC283167AD0EE1065C7E3 /* Pods-XYTagsView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XYTagsView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxy.XYTagsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89548D741FBEE6B9006D3F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E1A8B8B4735ACB53AAC1A89 /* Pods-XYTagsView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XYTagsView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lxy.XYTagsView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89548D571FBEE6B8006D3F1E /* Build configuration list for PBXProject "XYTagsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89548D701FBEE6B9006D3F1E /* Debug */,
+				89548D711FBEE6B9006D3F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89548D721FBEE6B9006D3F1E /* Build configuration list for PBXNativeTarget "XYTagsView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89548D731FBEE6B9006D3F1E /* Debug */,
+				89548D741FBEE6B9006D3F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89548D541FBEE6B8006D3F1E /* Project object */;
+}
