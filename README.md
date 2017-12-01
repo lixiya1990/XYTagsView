@@ -2,6 +2,8 @@
 基于UICollectionView实现的 热门标签view 
 <br> pod 'XTagsView'
 
+![](https://github.com/lixiya1990/XYTagsView/edit/master/XYTagsView/未命名.gif)  
+
 # 用法，内部实现 - (CGSize)intrinsicContentSize 只需设置好约束，可自适应高度
     // 情况一 自适应高度
     _v = [[XTagsView alloc] init];
